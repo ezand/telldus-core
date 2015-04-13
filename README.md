@@ -1,5 +1,5 @@
-# telldus-java
-Java wrapper around the Telldus CLI (tdtool). This is a work in progress, improvements are accepted through pull-requests :)
+# telldus-core
+Core library for the Telldus Java wrapper
 
 [![Build Status](https://travis-ci.org/ezand/telldus-core.svg?branch=master)](https://travis-ci.org/ezand/telldus-core)
 [![Javadoc](http://javadoc-badge.appspot.com/org.ezand.telldus/telldus-core.svg?label=telldus-core)](http://ezand.org/javadocs/telldus-core/release/1.0/)
