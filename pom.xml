@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<parent>
+		<groupId>org.ezand</groupId>
+		<artifactId>parent</artifactId>
+		<version>1.0</version>
+	</parent>
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.ezand.telldus</groupId>
+	<artifactId>telldus-core</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<name>Telldus - Core</name>
+	<description>Core classes for the Telldus Java wrapper</description>
+
+	<properties>
+		<guava.version>18.0</guava.version>
+	</properties>
+
+	<scm>
+		<connection>scm:git:git@github.com:ezand/telldus-core.git</connection>
+		<url>scm:git:git@github.com:ezand/telldus-core.git</url>
+		<developerConnection>scm:git:git@github.com:ezand/telldus-core.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+		</dependency>
+	</dependencies>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>com.google.guava</groupId>
+				<artifactId>guava</artifactId>
+				<version>${guava.version}</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+</project>
