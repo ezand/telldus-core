@@ -31,22 +31,37 @@ public class Sensor {
 				.collect(toMap(Entry::getKey, Entry::getValue));
 	}
 
+	/**
+	 * @return the id of the sensor.
+	 */
 	public int getId() {
 		return id;
 	}
 
+	/**
+	 * @return the local date and time the sensor was last updated.
+	 */
 	public LocalDateTime getLastUpdated() {
 		return lastUpdated;
 	}
 
+	/**
+	 * @return the sensor specific properties.
+	 */
 	public Map<String, String> getProperties() {
 		return properties;
 	}
 
+	/**
+	 * @return the {@link SensorModel} of the sensor.
+	 */
 	public SensorModel getModel() {
 		return model;
 	}
 
+	/**
+	 * @return the {@link SensorProtocol} of the sensor.
+	 */
 	public SensorProtocol getProtocol() {
 		return protocol;
 	}

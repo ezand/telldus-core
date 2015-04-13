@@ -25,18 +25,30 @@ public class Device {
 				.collect(toMap(Entry::getKey, Entry::getValue));
 	}
 
+	/**
+	 * @return the device id
+	 */
 	public Integer getId() {
 		return id;
 	}
 
+	/**
+	 * @return the last sent command as a {@link LastSentCommand}.
+	 */
 	public LastSentCommand getLastSentCommand() {
 		return lastSentCommand;
 	}
 
+	/**
+	 * @return the name of the device.
+	 */
 	public String getName() {
 		return name;
 	}
 
+	/**
+	 * @return the device specific properties.
+	 */
 	public Map<String, String> getProperties() {
 		return properties;
 	}
