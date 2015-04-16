@@ -30,14 +30,14 @@ Core library for the Telldus Java wrapper
   </tr>
   <tr>
     <td>Sensor</td>
-    <td>Holds sensors information, ex. temperature and weather data</td>
+    <td>Holds sensors information, ex. temperature and weather data.</td>
   </tr>
   <tr>
     <td>State</td>
     <td>
       <ul>
-        <li>For switches the state will be a RichBoolean instance</li>
-        <li>For dimmers the state will be a RichBoolean instance or the dim-level (0-255), depending on the last command sent to the dim-device</li>
+        <li>For switches the state will be a RichBoolean instance.</li>
+        <li>For dimmers the state will be a RichBoolean instance or the dim-level (0-255), depending on the last command sent to the dim-device.</li>
       </ul>
     </td>
   </tr>
