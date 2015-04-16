@@ -2,7 +2,7 @@
 Core library for the Telldus Java wrapper
 
 [![Build Status](https://travis-ci.org/ezand/telldus-core.svg?branch=master)](https://travis-ci.org/ezand/telldus-core)
-[![Javadoc](http://javadoc-badge.appspot.com/org.ezand.telldus/telldus-core.svg?label=telldus-core)](http://ezand.org/javadocs/telldus-core/release/1.0/)
+[![Javadoc](http://javadoc-badge.appspot.com/org.ezand.telldus/telldus-core.svg?label=telldus-core)](http://ezand.org/javadocs/telldus-core/release/1.1/)
 
 # Build Tools
 ### Maven
