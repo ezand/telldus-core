@@ -1,11 +1,9 @@
 package org.ezand.telldus.core.domain;
 
 public class State<T> {
-	private final Type type;
 	private final T state;
 
-	public State(final Type type, final T state) {
-		this.type = type;
+	public State(final T state) {
 		this.state = state;
 	}
 
@@ -20,11 +18,6 @@ public class State<T> {
 	public String toString() {
 		return "State{" +
 				"state='" + state + '\'' +
-				", type=" + type +
 				'}';
-	}
-
-	public Type getType() {
-		return type;
 	}
 }
