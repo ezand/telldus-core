@@ -34,6 +34,11 @@ Core library for the Telldus Java wrapper
   </tr>
   <tr>
     <td>State</td>
-    <td>Holds the device state, ex. 'on' or 'off' for switches and the dim level (0-255) for dimmers. State has a type of currently UNKNOWN, SWITCH or DIMMER (more will be supported later)</td>
+    <td>
+      <ul>
+        <li>For switches the state will be a RichBoolean instance</li>
+        <li>For dimmers the state will be a RichBoolean instance or the dim-level (0-255), depending on the last command sent to the dim-device</li>
+      </ul>
+    </td>
   </tr>
 </table>
