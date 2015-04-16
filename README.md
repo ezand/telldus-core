@@ -9,14 +9,14 @@ Core library for the Telldus Java wrapper
     <dependency>
         <groupId>org.ezand.telldus</groupId>
         <artifactId>telldus-core</artifactId>
-        <version>1.0</version>
+        <version>1.1</version>
     </dependency>
 
 ### Gradle
-    runtime group: 'org.ezand.telldus', name: 'telldus-core', version: '1.0'
+    runtime group: 'org.ezand.telldus', name: 'telldus-core', version: '1.1'
 
 ### Leiningen
-    [org.ezand.telldus/telldus-core "1.0"]
+    [org.ezand.telldus/telldus-core "1.1"]
 
 # Main domain objects
 <table>
