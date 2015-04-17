@@ -9,7 +9,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.ezand.telldus</groupId>
 	<artifactId>telldus-core</artifactId>
-	<version>1.4</version>
+	<version>1.5-SNAPSHOT</version>
 	<name>Telldus - Core</name>
 	<description>Core classes for the Telldus Java wrapper</description>
 
@@ -29,7 +29,7 @@
 		<connection>scm:git:git@github.com:ezand/telldus-core.git</connection>
 		<url>scm:git:git@github.com:ezand/telldus-core.git</url>
 		<developerConnection>scm:git:git@github.com:ezand/telldus-core.git</developerConnection>
-		<tag>telldus-core-1.4</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<dependencies>
