@@ -2,21 +2,21 @@
 Core library for the Telldus Java wrapper
 
 [![Build Status](https://travis-ci.org/ezand/telldus-core.svg?branch=master)](https://travis-ci.org/ezand/telldus-core)
-[![Javadoc](http://javadoc-badge.appspot.com/org.ezand.telldus/telldus-core.svg?label=telldus-core)](http://ezand.org/javadocs/telldus-core/release/1.1/)
+[![Javadoc](http://javadoc-badge.appspot.com/org.ezand.telldus/telldus-core.svg?label=telldus-core)](http://ezand.org/javadocs/telldus-core/release/1.4/)
 
 # Build Tools
 ### Maven
     <dependency>
         <groupId>org.ezand.telldus</groupId>
         <artifactId>telldus-core</artifactId>
-        <version>1.1</version>
+        <version>1.4</version>
     </dependency>
 
 ### Gradle
-    runtime group: 'org.ezand.telldus', name: 'telldus-core', version: '1.1'
+    runtime group: 'org.ezand.telldus', name: 'telldus-core', version: '1.4'
 
 ### Leiningen
-    [org.ezand.telldus/telldus-core "1.1"]
+    [org.ezand.telldus/telldus-core "1.4"]
 
 # Main domain objects
 <table>
